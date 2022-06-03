@@ -6,4 +6,4 @@ f.close()
 
 f = open("chris2.txt", "r")
 print(f.read())
-sys.stderr.write("spam\n")
+os.write(1, b"spam\n")

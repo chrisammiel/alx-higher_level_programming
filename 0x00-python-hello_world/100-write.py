@@ -1,6 +1,6 @@
 #!/usr/bin/python3 
 import sys
-f = open("chris2.txt", "a" )
+f = open("chris2.txt", "a")
 f.write("\nand that piece of art is useful - Dora Korpar, 2015-10-19")
 f.close()
 

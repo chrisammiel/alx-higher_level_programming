@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-import string
-for letter in string.ascii_lowercase:
-    if letter in string.ascii_lowercase == e:
+alph = 97
+for i in range(97, 122):
+    if i == 101 and i == 112:
         continue
-        print("{}".format(letter in string.ascii_lowercase), end="")
+    print(chr(i), end="")
+    alph += 1

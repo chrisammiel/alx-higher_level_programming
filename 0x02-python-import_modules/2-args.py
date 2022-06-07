@@ -8,5 +8,5 @@ if __name__ == "__main__":
     num_of_args = len(sys.argv[1:])
     i = 1
     while num_of_args >= 1:
-        print("{}: {}".format(i, argv[i]))
+        print("{}: {}".format(i, sys.argv[i]))
         i += 1

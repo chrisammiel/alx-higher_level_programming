@@ -7,6 +7,6 @@ if __name__ == "__main__":
         print("{} arguments:".format(len(sys.argv)-1))
     num_of_args = len(sys.argv[1:])
     i = 1
-    while (num_of_args >= 1):
-        print("{}: {}".format(i, sys.argv[i]))
-        i += 1
+    while num_of_args >= 1:
+        print(f'{i}: {sys.argv[i]}')
+        i = i + 1

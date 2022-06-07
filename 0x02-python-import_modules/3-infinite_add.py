@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    num_of_args = len(sys.argv[1:])
-    i = 1
-    while num_of_args >= 1:
-        print("{}".format(0 + int(sys.argv[i])))
-        i = i + 1
-        
+    import sys
+    sm = 0
+    for i in range(1, len(sys.argv)):
+        sm = sm + int(sys.argv[i])
+    print("{}".format(sm))

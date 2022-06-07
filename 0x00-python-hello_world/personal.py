@@ -1,4 +1,3 @@
-alph = 97
-for i in range(97, 122):
-    print(chr(i), end="")
-    alph += 1
+from datetime import date
+now = date.today()
+print(now)

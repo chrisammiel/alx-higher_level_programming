@@ -4,7 +4,7 @@ if __name__ == "__main__":
     if (len(sys.argv)-1) == 1:
         print("{} argument:".format(len(sys.argv)-1))
     else:
-        print("{} arguments:".format(len(sys.argv) - 1))
+        print("{} arguments:".format(len(sys.argv)-1))
     num_of_args = len(sys.argv[1:])
     i = 1
     while num_of_args >= 1:

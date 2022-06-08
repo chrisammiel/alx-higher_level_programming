@@ -7,4 +7,4 @@ def element_at(my_list, idx):
         elif idx > len(my_list):
             return none
         else:
-            print(my_list[i])
+            print("{:d}".format(my_list[i]))

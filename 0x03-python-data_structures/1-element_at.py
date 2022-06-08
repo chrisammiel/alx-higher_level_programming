@@ -4,5 +4,7 @@ def element_at(my_list, idx):
         return None
     elif idx > len(my_list):
         return None
+    else:
+        pass
     for i in my_list:
-        print("{}".format(my_list[i]))
+        print("{:d}".format(my_list[i]))

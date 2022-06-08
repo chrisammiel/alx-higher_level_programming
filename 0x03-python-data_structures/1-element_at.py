@@ -6,5 +6,5 @@ def element_at(my_list, idx):
         return None
     else:
         pass
-    for i in my_list:
-        print("{:d}".format(my_list[i]))
+    for idx in my_list:
+        print("{:d}".format(my_list[idx]))

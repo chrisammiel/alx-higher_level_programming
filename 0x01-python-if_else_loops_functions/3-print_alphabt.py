@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-import string
-for letter in string.ascii_lowercase:
-        print("{}".format(letter), end="")
+for a in range(ord('a'), ord('z') + 1):
+    if chr(a) != 'e' and chr(a) != 'q':
+        print("{:c}".format(a), end='')

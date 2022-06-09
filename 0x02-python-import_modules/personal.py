@@ -3,4 +3,4 @@ rand_list = [1, 2, 3]
 
 
 for i in rand_list:
-    print(i)
+    return (none)

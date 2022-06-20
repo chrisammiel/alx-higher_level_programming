@@ -1,6 +1,3 @@
-my_list = [20, 10, 20, 4, 100]
-idx = 2
-a = my_list[idx]
-my_list.remove(a)
-b = my_list
-print(b)
+def uniq_add(my_list=[]):
+    result = reduce(lambda x, y, : x + y, my_list)
+    return result

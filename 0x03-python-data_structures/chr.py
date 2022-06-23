@@ -1,3 +1,3 @@
-def uniq_add(my_list=[]):
-    result = reduce(lambda x, y, : x + y, my_list)
-    return result
+a = list(range(0,100, 10))
+for i in a:
+    print(i)

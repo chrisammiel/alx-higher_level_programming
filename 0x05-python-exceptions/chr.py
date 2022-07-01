@@ -1,11 +1,18 @@
-my_list = [1, 2, 3, 4, 5]
-x = 2
-y = 0
-for i in range(x):
-    try:
-        print("{:d}".format(my_list[i]), end="")
-        y += 1
-    except IndexError:
-        break
-print("")
+class B(Exception):
+    pass
 
+class C(B):
+    pass
+
+class D(C):
+    pass
+
+for cls in [B, C, D]:
+    try:
+        raise cls()
+    except B:
+        print("B")
+    except C:
+        print("C")
+    except D:
+        print("D")
